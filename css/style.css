@@ -1,0 +1,196 @@
+.hide {
+  display: none;
+}
+
+#imageBox {
+  height: 400px;
+  width: 400px;
+  border: 2px black solid;
+  border-radius: 70px;
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+
+#dogPictures {
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+#homeStart {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#startButton {
+  height: 100px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+#noButton {
+  font-size: 100px;
+  color: #FF231E;
+}
+
+#yesButton {
+  font-size: 100px;
+  color: #41FF7F;
+}
+
+#infoTitle {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+}
+
+#pugImage {
+  height: 400px;
+  width: 400px;
+  margin-left: 35%;
+}
+
+.boldFont {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+
+}
+
+.notBold {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+
+}
+
+
+
+
+
+#welcome {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: MistyRose;
+  box-shadow: 3px 3px 3px grey;
+  opacity: .9;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#gameOver{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: MistyRose;
+  box-shadow: 3px 3px 3px grey;
+  opacity: .9;
+  border-radius: 20px;
+  z-index: 2;
+  display:none;
+}
+.popBox {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  text-align:center;
+}
+
+
+.picture {
+  background-color: white;
+  margin-bottom: 1%;;
+  margin-left: 3%;
+  border-radius: 10px;
+  border: 2px solid #1DB24E;
+  width: 70%;
+  height: 18em;
+  background-position: center;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  background-size: 100% 18em;
+}
+.question {
+  width: 82%;
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid #1DB24E;
+  background-color: white;
+  opacity: .8;
+}
+#wrapper {
+  float: left;
+  width: 75%;
+}
+#sidebarWrap {
+  width: 20%;
+  float: left;
+  border-radius: 10px;
+  background-color: #97FFBA;
+  /*opacity: .7*/
+}
+#score{
+  background-color: #1DB24E;
+}
+.sidebar {
+  font-size: 1.2em;
+  border-radius: 10px;
+  font-family: 'Luckiest Guy', cursive;
+  border-bottom: 1px solid white;
+  border-radius: 10px;
+  text-align:center;
+}
+
+#a, #b, #c, #d {
+  width: 40%;
+  height: 3em;
+  display: inline-table;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-bottom: 2px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 18px;
+  border: 3px solid #1DB24E;
+  background-color: white;
+  opacity: .9;
+  font-weight: bold;
+  text-align:center;
+}
+ #restart{
+  padding-top: 1%;
+  width: 11%;
+  height:50px;
+  display: inline-table;
+  border-radius: 10px;
+  border: 2px solid #1DB24E;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: white;
+  opacity: .8;
+};
+
+#gameOver{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: MistyRose;
+  box-shadow: 3px 3px 3px grey;
+  opacity: .9;
+  border-radius: 20px;
+  z-index: 2;
+  display:none;
+}
+
+#dogQuiz {
+  margin-left: 15%;
+}

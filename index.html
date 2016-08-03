@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PuppyMe</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Luckiest+Guy' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+<body>
+  <div id="homeStart">
+  <h1 class="text-center" style="font-size: 60px;">Puppy Me</h1>
+  <h2 class="text-center" style="font-family: 'Indie Flower', cursive; margin-top: -10px;">Learn about your new best friend</h2>
+  <img src="http://kaliswish.org/wp-content/uploads/2015/09/32802234Large-multipledogs.jpg" alt="" style="width: 100%;">
+    <button type="button" class="btn btn-success center-block" id="startButton" style="font-size: 32px;">FIND MY PET!</button>
+  </div>
+  <div id="dogPictures" class="hide">
+    <div style="background-image: url(http://dogfriendlydirectory.com/wp-content/uploads/photo-gallery/cute-dog-pictures-for-kids.jpg);" id="imageBox"></div>
+    <i class="fa fa-ban col-md-4" aria-hidden="true" id="noButton"></i>
+    <i class="fa fa-heart col-md-4" aria-hidden="true" id="yesButton"></i>
+  </div>
+  <div id="dogInfo" class="hide" style="text-align: center;">
+    <h1 id="infoTitle">Caretaking: pug Lyfe</h1>
+    <img src="http://shortyawards.imgix.net/entries/8th/screen-shot-2016-01-19-at-10034-a.png?auto=format&fit=crop&h=400&q=65&w=400&s=87ec73a9de4e8cd6f93d1ec4d8eaff5d" alt="" style="width:200px; height: 200px;" class="center-block">
+    <img src="images/dogbowl.png" alt=""></br><p class="boldFont" style="display: inline-block;"> FOOD: </p></br><p class="notBold" style="display: inline-block;"> Feed twice a day 2 cups dry food, 1 cup wet food.</p></br>
+    <img src="images/dogbrush.png" alt=""></br><p class="boldFont" style="display: inline-block;">GROOMING:</p></br><p class="notBold" style="display: inline-block;"> Short hair, shedding, face folds need extra attention</p></br>
+    <img src="images/doggyscale.png" alt=""></br><p class="boldFont" style="display: inline-block;">SIZE:</p></br><p class="notBold" style="display: inline-block;"> 20-40lbs, 1-2ft tall.</p></br>
+    <img src="images/doggytemperament.png" alt=""></br><p class="boldFont" style="display: inline-block;">TEMPERATURE:</p></br><p class="notBold" style="display: inline-block;"> Calm, restrained, obedient, curious.</p></br>
+    <img src="images/doggyhouse.png" alt=""></br><p class="boldFont" style="display: inline-block;">HOUSING:</p></br><p class="notBold" style="display: inline-block;"> Requires little to no yard space, good for apartments.</p></br>
+    <img src="images/doggyhealth.png" alt=""></br><p class="boldFont" style="display: inline-block;">HEALTH:</p></br><p class="notBold" style="display: inline-block;"> No serious health issues, breathing can become blocked.</p>
+
+    <button type="button" class="btn btn-success center-block" style="font-size: 32px; margin-bottom: 10px;" id="quizButton">Quiz Me!</button>
+  </div>
+
+<div id="dogQuiz" class="hide">
+  <h1 style="font-family: 'Luckiest Guy', cursive;">Puppy Me Quiz</h1>
+  <div id="wrapper">
+  <!-- game over page -->
+  <div class="font" id="gameOver">
+  <p class="popBox" id="prize"></p>
+  <button class="start"> Try Again! </button>
+  </div>
+  <!-- game over page -->
+
+  <div class="picture"></div>
+  <div class="question">
+    <p id="questionBox" style="font-family: 'Luckiest Guy', cursive; font-size: 30px; text-align:center;"></p>
+    </div>
+      <div id="a"></div>
+      <div id="b"></div>
+      <div id="c"></div>
+      <div id="d"></div>
+  </div>
+
+  <div id="sidebarWrap">
+    <div class="sidebar">
+    <div class="sidebar" id="score"> Score</div>
+    <div class="sidebar" id="level2"> 3 puppie points</div>
+    <div class="sidebar" id="level1"> 2 puppie points</div>
+    <div class="sidebar" id="level0"> 1 puppie point</div>
+    <div class="sidebar" id="level-1"> No points</div>
+  </div>
+
+</div>
+  <div id="restart" style="background-color:Lightyellow;" >Restart</div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
